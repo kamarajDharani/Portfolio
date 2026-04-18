@@ -52,9 +52,7 @@ I am an Electronics and Communication Engineering graduate with hands-on experie
 ---
 
 ## 🌐 Live Portfolio
-
-👉 https://kamarajDharani.github.io/portfolio/
-
+https://kamarajdharani.github.io/Portfolio/
 ---
 
 ## 📬 Contact
