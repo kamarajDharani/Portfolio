@@ -103,12 +103,14 @@
         }
 
         .nav {
-            display: flex;
-            gap: 22px;
-            flex-wrap: wrap;
-            font-size: 0.95rem;
-            color: var(--muted);
-        }
+    display: flex;
+    gap: 14px;
+    flex-wrap: nowrap;      /* stop breaking into 2 lines */
+    overflow-x: auto;       /* allow horizontal scroll */
+    white-space: nowrap;    /* keep items in one line */
+    font-size: 0.85rem;
+    color: var(--muted);
+   }
 
         .nav a {
             transition: color 0.2s ease;
@@ -169,11 +171,12 @@
         }
 
         .hero h1 {
-            margin: 0;
-            font-size: clamp(2.3rem, 5vw, 4.2rem);
-            line-height: 1.05;
-            letter-spacing: -0.05em;
-            max-width: 18ch;
+        margin: 0;
+        font-size: 2.4rem;   /* medium size */
+        line-height: 1.25;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        max-width: 18ch;
         }
 
         .hero h1 span {
@@ -569,9 +572,9 @@
             }
 
             .hero h1 {
-                font-size: clamp(2.4rem, 14vw, 4rem);
-            }
-
+             font-size: 1.9rem;
+              line-height: 1.3;
+        }
             .stat-grid {
                 grid-template-columns: 1fr;
             }
@@ -611,8 +614,7 @@
             <div class="container hero-grid">
                 
                 <div class="panel hero-main">
-                    <h1><span>Embedded</span> systems that solve real-world problems.</h1>
-                    <p class="hero-lead">
+                    <h1><span>Embedded</span> systems powered by AI.</h1>                    <p class="hero-lead">
                         Electronics and Communication Engineering graduate with hands-on experience in Embedded Systems, IoT, and AI applications. Skilled in developing real-time systems that integrate hardware and software for safety, automation, and smart infrastructure solution.
                     </p>
                     <div class="hero-actions">
