@@ -585,6 +585,21 @@
                 align-items: flex-start;
             }
         }
+        .project-img {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 12px 0;
+    display: block;
+}
+.cert-img {
+    width: 120px;        /* reduce size */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 10px;
+}
     </style>
 </head>
 <body>
@@ -828,6 +843,10 @@
                             computer vision. The goal was to improve commute safety through early warnings and real-time
                             visibility.
                         </p>
+                        <p>
+                         Built an AI-based safety system for detecting passenger overcrowding...
+                         </p>
+                        <img src="transit-output.jpg" alt="Transit Shield" class="project-img">
                         <div class="project-meta">
                             <div class="meta-row"><strong>Features</strong><span>Passenger crowd detection, fatigue monitoring, and real-time alerting.</span></div>
                             <div class="meta-row"><strong>Impact</strong><span>Supports safer public transport decisions by identifying risk conditions as they appear.</span></div>
@@ -844,6 +863,10 @@
                             Developed a drunk-driving prevention prototype that detects alcohol presence using an MQ-3
                             sensor and prevents ignition through relay-based engine locking.
                         </p>
+                        <p>
+                        Developed a drunk-driving prevention prototype...
+                        </p>
+                          <img src="breathe-lock.jpg" alt="BreatheLock" class="project-img">
                         <div class="project-meta">
                             <div class="meta-row"><strong>Features</strong><span>Alcohol detection, buzzer warning, LCD feedback, and engine lock control.</span></div>
                             <div class="meta-row"><strong>Impact</strong><span>Addresses road safety by preventing vehicle use when impairment is detected.</span></div>
@@ -860,6 +883,11 @@
                             Designed an IoT-based room automation system with voice-controlled climate adjustment. The
                             system adapts temperature settings to improve comfort and reduce unnecessary manual control.
                         </p>
+                        <p>
+                         Designed an IoT-based room automation system...
+                        </p>
+
+                        <img src="climate fit.jpeg" alt="Climate Fit" class="project-img">
                         <div class="project-meta">
                             <div class="meta-row"><strong>Features</strong><span>Voice input, temperature adjustment, and personalized climate control.</span></div>
                             <div class="meta-row"><strong>Impact</strong><span>Improves guest convenience while supporting efficient environment control.</span></div>
@@ -876,6 +904,8 @@
                             Created a backend task management API with CRUD operations, authentication, and real-time
                             updates using WebSockets for dynamic client interaction.
                         </p>
+                         <img src="Task manager.jpeg" alt="Task manager" class="project-img">
+
                         <div class="project-meta">
                             <div class="meta-row"><strong>Features</strong><span>Authentication, CRUD endpoints, and live update support.</span></div>
                             <div class="meta-row"><strong>Impact</strong><span>Demonstrates backend engineering fundamentals and real-time application design.</span></div>
@@ -895,13 +925,36 @@
             </div>
         </div>
 
-        <div class="panel about-card">
-            <ul style="color: var(--muted); line-height: 1.8;">
-                <li>Java & MySQL – Greens Technology</li>
-                <li>Python Programming – Udemy</li>
-                <li>Cybersecurity Fundamentals – Coursera</li>
-            </ul>
-        </div>
+
+
+    <div class="projects-grid">
+
+    <div class="project-card">
+        <img src="java.jpeg" class="project-img">
+        <h3>Java – Greens Technology</h3>
+        <p>Completed training in Java programming and backend fundamentals.</p>
+    </div>
+
+    <div class="project-card">
+        <img src="mysql.jpeg" class="project-img">
+        <h3>MySQL – Greens Technology</h3>
+        <p>Learned database design, queries, and data management.</p>
+    </div>
+
+    <div class="project-card">
+        <img src="python.jpg" class="project-img">
+        <h3>Python Programming – Udemy</h3>
+        <p>Covered core Python concepts, scripting, and problem solving.</p>
+    </div>
+
+    <div class="project-card">
+        <img src="cybersecurity.jpeg" class="project-img">
+        <h3>Cybersecurity Fundamentals – Coursera</h3>
+        <p>Learned basics of security, threats, and protection mechanisms.</p>
+    </div>
+
+</div>
+</div>
 
     </div>
 </section>
